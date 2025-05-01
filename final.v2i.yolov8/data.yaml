@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Curry', 'Kevin-Durant', 'LeBron-James', 'glasses', 'mouse-computer', 'thermos-flask']
+
+roboflow:
+  workspace: jensen-gyin3
+  project: final-uzun8
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jensen-gyin3/final-uzun8/dataset/2

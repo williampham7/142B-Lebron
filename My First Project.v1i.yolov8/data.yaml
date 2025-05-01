@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['angry', 'happy', 'neutral', 'sad', 'surprised']
+
+roboflow:
+  workspace: ant-cyks1
+  project: my-first-project-aqbwr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ant-cyks1/my-first-project-aqbwr/dataset/1

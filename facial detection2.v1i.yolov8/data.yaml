@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['bam', 'curry', 'davis', 'devin', 'durant', 'edwards', 'jayson', 'joel', 'jrue', 'kawahi', 'lebron']
+
+roboflow:
+  workspace: facial-detection2
+  project: facial-detection2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/facial-detection2/facial-detection2/dataset/1
