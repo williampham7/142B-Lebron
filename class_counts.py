@@ -17,5 +17,5 @@ def count_photos_per_class(all_cropped_folder):
 
 if __name__ == "__main__":
     # Replace with the path to your all_cropped folder
-    all_cropped_folder = "/Users/tai/Desktop/Projects/142B Project/all_cropped"
+    all_cropped_folder = "/Users/tai/Desktop/Projects/142B Project/mega_batch"
     count_photos_per_class(all_cropped_folder)

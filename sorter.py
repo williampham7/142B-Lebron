@@ -3,7 +3,7 @@ import shutil
 
 def organize_cropped_images(base_folder):
     # Define the new folder to store all cropped images
-    all_cropped_folder = os.path.join(base_folder, 'all_cropped')
+    all_cropped_folder = os.path.join(base_folder, 'croppped_all')
 
     # Create the all_cropped folder if it doesn't exist
     if not os.path.exists(all_cropped_folder):
@@ -25,7 +25,7 @@ def organize_cropped_images(base_folder):
             class_name = image_name.split(' - ')[0]
 
             # Create a subfolder for the class in the all_cropped folder
-            class_folder = os.path.join(all_cropped_folder, class_name)
+            class_folder = os.path.join(all_cropped_folder)#, class_name)
             if not os.path.exists(class_folder):
                 os.makedirs(class_folder)
 
